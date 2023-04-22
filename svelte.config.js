@@ -1,11 +1,9 @@
-import adapter from 'svelte-adapter-deno';import { optimizeImports } from "carbon-preprocess-svelte";
+import adapter from '@sveltejs/adapter-auto';
+import { optimizeImports } from "carbon-preprocess-svelte";
 
 
 export default {
 	preprocess: [optimizeImports()],
-	kit: {
-		adapter: adapter()
-	  }
   };
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,7 +12,5 @@ const config = {
 		adapter: adapter()
 	}
 };
-
-
 
 //export default config;
