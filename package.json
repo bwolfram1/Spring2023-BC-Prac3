@@ -24,6 +24,9 @@
 		"apexcharts": "^3.39.0",
 		"layercake": "^7.3.4",
 		"svelte-apexcharts": "^1.0.2",
-		"svelte-gantt": "^4.0.9-beta"
+		"svelte-gantt": "^4.0.9-beta",
+		"svelte": "^3.54.0",
+		"svelte-adapter-deno": "^0.9.0",
+		"@sveltejs/adapter-vercel": "^2.4.2"
 	}
 }
