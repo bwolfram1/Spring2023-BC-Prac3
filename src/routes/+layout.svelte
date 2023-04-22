@@ -23,8 +23,8 @@
     </svelte:fragment>
     <HeaderNav>
       <HeaderNavItem href="/" text="Home" />
-      <HeaderNavItem href="#ColorHistory" text="History" />
-      <HeaderNavItem href="#Pies" text="Colors" />
+      <HeaderNavItem href="/#colorhistory" text="History" />
+      <HeaderNavItem href="/#colors" text="Colors" />
       <HeaderNavItem href="/about" text="About" />
     </HeaderNav>
   </Header>

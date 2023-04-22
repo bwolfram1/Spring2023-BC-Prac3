@@ -762,12 +762,11 @@
     </Row>
     <Row>
       <Column>
-        <div>
+        <div id="colors">
           <h1>Explore the art of the movement</h1>
-          <p>Use the chart below to explore the artwork of the region and the movement</p>
+          <p>Use the chart below to explore the artwork of the region and the movement. Each dot represents the dominant color of the artwork.</p>
 
         
-        {region} {movement}
         </div> 
         Showing paintings from {selected_region} - movement  {selected_movement} !
 
