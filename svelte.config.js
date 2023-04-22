@@ -1,5 +1,4 @@
-import adapter from '@sveltejs/adapter-vercel';
-import { optimizeImports } from "carbon-preprocess-svelte";
+import adapter from 'svelte-adapter-deno';import { optimizeImports } from "carbon-preprocess-svelte";
 
 
 export default {
