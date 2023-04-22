@@ -33,8 +33,13 @@
     onMount(async () => {
       const response1 = await fetch('https://spring23-bc-group6.onrender.com/region?year_from=1400&year_to=2020')
       region_counts = await response1.json()
+      const ApexCharts = (await import('apexcharts')).default
+      const chart = new ApexCharts(container, options)
+      chart.render()
       //console.log(region_counts)
     })
+
+
 
     //onMount(async () => {
     //  const response2 = await fetch('https://spring23-bc-group6.onrender.com/movement?year_from=1400&year_to=2015&region=Europe')

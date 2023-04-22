@@ -15,6 +15,7 @@
     import '@carbon/charts/styles.css';
 
     let isSideNavOpen = false;
+    //export const ssr = false;
   </script>
   
   <Header company="Budget Collector" platformName="Color Explorer" bind:isSideNavOpen>

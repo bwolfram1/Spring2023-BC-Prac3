@@ -1,16 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { optimizeImports } from "carbon-preprocess-svelte";
 
 
 export default {
 	preprocess: [optimizeImports()],
+	kit: {
+        adapter: adapter({
+            // see the 'Deployment configuration' section below
+        })
+    }
   };
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-		adapter: adapter()
-	}
-};
+
 
 //export default config;
